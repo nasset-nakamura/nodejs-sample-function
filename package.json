@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-sample-function",
+  "description": "Node.jsサンプル機能集",
+  "author": "nasset-nakamura <nakamura@n-asset.com>",
+  "scripts": {
+    "lint": "eslint --ext \".js,.jsx\" ./src && prettier --write ./src",
+    "lint:fix": "eslint --ext \".js,.jsx\" ./src --fix && prettier --write ./src"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.5.1"
+  }
+}
