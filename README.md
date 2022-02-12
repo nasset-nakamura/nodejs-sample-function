@@ -50,12 +50,6 @@ Default output format [json]:
 
 # ユーザー情報が取得できることを確認
 $ aws sts get-caller-identity
-
-{
-    "UserId": "AIDAXXVE56XZIIQRQAYCD",
-    "Account": "531848099314",
-    "Arn": "arn:aws:iam::531848099314:user/nakamura"
-}
 ```
 
 ### 開発環境準備
@@ -79,15 +73,14 @@ $ npm install
 4. 実行
 
 ```bash
+$ npm run test -src='xxxxxxxxxx'
 $ node -r dotenv/config src/xxxxxxxxxx/index.js
 ```
 
 ### サンプル機能一覧
 
-| ディレクトリ   | 内容 |
-| -------------- | ---- |
-| src/xxxxxxxxxx | ●●●● |
-| src/xxxxxxxxxx | ●●●● |
-| src/xxxxxxxxxx | ●●●● |
-| src/xxxxxxxxxx | ●●●● |
-| src/xxxxxxxxxx | ●●●● |
+| ディレクトリ           | 内容                                       |
+| ---------------------- | ------------------------------------------ |
+| src/chatwork/sample-01 | ChatworkAPI で自分自身の情報を取得         |
+| src/chatwork/sample-02 | ChatworkAPI でコンタクのユーザー一覧を取得 |
+| src/chatwork/sample-03 | ChatworkAPI でメッセージを追加             |

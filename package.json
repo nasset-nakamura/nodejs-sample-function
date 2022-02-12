@@ -4,9 +4,13 @@
   "author": "nasset-nakamura <nakamura@n-asset.com>",
   "scripts": {
     "lint": "eslint --ext \".js,.jsx\" ./src && prettier --write ./src",
-    "lint:fix": "eslint --ext \".js,.jsx\" ./src --fix && prettier --write ./src"
+    "lint:fix": "eslint --ext \".js,.jsx\" ./src --fix && prettier --write ./src",
+    "test": "node -r dotenv/config src/${npm_config_src}/index.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^0.25.0",
+    "dotenv": "^16.0.0"
+  },
   "devDependencies": {
     "eslint": "^8.7.0",
     "eslint-config-prettier": "^8.3.0",
