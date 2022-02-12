@@ -84,3 +84,5 @@ $ node -r dotenv/config src/xxxxxxxxxx/index.js
 | src/chatwork/sample-01 | ChatworkAPI で自分自身の情報を取得         |
 | src/chatwork/sample-02 | ChatworkAPI でコンタクのユーザー一覧を取得 |
 | src/chatwork/sample-03 | ChatworkAPI でメッセージを追加             |
+| src/sendgrid/sample-01 | SendGrid SDK でテキストメール送信          |
+| src/sendgrid/sample-02 | SendGrid SDK で HTML メール送信            |
