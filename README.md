@@ -81,6 +81,11 @@ $ node -r dotenv/config src/xxxxxxxxxx/index.js
 
 | ディレクトリ           | 内容                                       |
 | ---------------------- | ------------------------------------------ |
+| src/aws/sample-01      | AWS S3 バケット一覧を取得、バケットを作成  |
+| src/aws/sample-02      | AWS S3 バケットを削除                      |
+| src/aws/sample-03      | AWS S3 ファイルを追加                      |
+| src/aws/sample-04      | AWS S3 ファイル一覧を取得、ファイルを開く  |
+| src/aws/sample-05      | AWS S3 ファイルを削除                      |
 | src/chatwork/sample-01 | ChatworkAPI で自分自身の情報を取得         |
 | src/chatwork/sample-02 | ChatworkAPI でコンタクのユーザー一覧を取得 |
 | src/chatwork/sample-03 | ChatworkAPI でメッセージを追加             |
